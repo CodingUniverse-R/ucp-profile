@@ -1,14 +1,25 @@
 {
   "ucp": {
-    "version": "2026-04-08"
-  },
-  "profile": {
-    "name": "agent",
-    "description": "Richard UCP Agent"
-  },
-  "profile_url": "https://codinguniverse-r.github.io/ucp-profile/profile.json",
-  "capabilities": [
-    "dev.ucp.shopping.catalog.search",
-    "dev.ucp.shopping.catalog.lookup"
-  ]
+    "version": "2026-04-08",
+    "status": "success",
+    "services": {
+      "dev.ucp.shopping": [
+        {
+          "version": "2026-01-23",
+          "spec": "https://ucp.dev/2026-04-08/specification/overview",
+          "schema": "https://ucp.dev/2026-04-08/services/shopping/mcp.openrpc.json",
+          "transport": "mcp"
+        }
+      ]
+    },
+    "capabilities": {
+      "dev.ucp.shopping.catalog.search": [
+        {
+          "version": "2026-04-08",
+          "spec": "https://ucp.dev/2026-04-08/specification/catalog",
+          "schema": "https://ucp.dev/2026-04-08/schemas/shopping/catalog_search.json"
+        }
+      ]
+    }
+  }
 }

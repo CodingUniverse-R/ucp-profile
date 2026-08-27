@@ -1,0 +1,5 @@
+{
+  "name": "agent",
+  "protocol_min": "2026-01-23",
+  "protocol_max": "2026-04-08"
+}

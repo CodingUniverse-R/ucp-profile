@@ -1,5 +1,8 @@
 {
+  "ucp": {
+    "version": "2026-04-08"
+  },
   "name": "agent",
-  "protocol_min": "2026-01-23",
-  "protocol_max": "2026-04-08"
+  "description": "Richard UCP Agent",
+  "profile_url": "https://codinguniverse-r.github.io/ucp-profile/profile.json"
 }

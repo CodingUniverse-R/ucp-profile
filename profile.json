@@ -2,7 +2,13 @@
   "ucp": {
     "version": "2026-04-08"
   },
-  "name": "agent",
-  "description": "Richard UCP Agent",
-  "profile_url": "https://codinguniverse-r.github.io/ucp-profile/profile.json"
+  "profile": {
+    "name": "agent",
+    "description": "Richard UCP Agent"
+  },
+  "profile_url": "https://codinguniverse-r.github.io/ucp-profile/profile.json",
+  "capabilities": [
+    "dev.ucp.shopping.catalog.search",
+    "dev.ucp.shopping.catalog.lookup"
+  ]
 }
